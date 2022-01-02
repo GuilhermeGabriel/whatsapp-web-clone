@@ -1,0 +1,23 @@
+.sidebar__chat {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #f6f6f6;
+    cursor: pointer;
+}
+
+.sidebar__chat:hover {
+    background-color: #ebebeb;
+}
+
+.sidebarchat_info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.sidebarchat_info > p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 250px;
+}
